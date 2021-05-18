@@ -6,6 +6,7 @@ int main(void)
     int h, i, j;
     do
     {
+        //height positive integer between 1 and 8
         h = get_int("Height: ");
     }
     while ((h < 1) || (h > 8));
